@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);//se modifico esta linea
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main);//se modifico esta linea desde otra PC
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         mTigo = (ImageView) findViewById(R.id.imageTigo);
         mViva = (ImageView)findViewById(R.id.imageViva);
